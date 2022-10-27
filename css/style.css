@@ -1,0 +1,163 @@
+.text{
+  padding: 45px; margin: 45px;
+}
+*{
+  font-family: 'PT Serif', serif;
+}
+
+body{
+background-color: rgb(25, 64, 149);
+padding: 0px; margin: 0px;
+}
+.top{
+  background-color: rgb(33, 123, 157);
+  padding:12px; margin:0; /*Ett försök att få färgen att tecka hela texten överdel*/
+  padding:rgb(67, 126, 159);
+  margin:rgb(0, 79, 255);
+}
+#movie{
+  width:100%;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'PT Serif', serif;
+}
+
+#sida{
+  background-image: url("../img/skyskrapa.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.text{
+  color:rgb(0, 0, 0); /*Detta behövs för att mainsidan har en class som gör att bakgrunden till den är en bild, och med tidigare färg syntes inget, så färgen är är specifikt för mainsidan*/
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content_harvey {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown_harvey:hover .dropdown-content_harvey {
+  display: block;
+}
+.dropdown_harvey {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content_mike {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown_mike:hover .dropdown-content_mike {
+  display: block;
+}
+.dropdown_mike {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content_louis {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown_louis:hover .dropdown-content_louis {
+  display: block;
+}
+.dropdown_louis {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content_rachel {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+
+.dropdown_rachel:hover .dropdown-content_rachel {
+  display: block;
+}
+.dropdown_donna {
+  position: relative;
+  display: inline-block;
+}
+.dropdown_donna:hover .dropdown-content_donna {
+  display: block;
+}
+.dropdown-content_donna {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+.dropdown-content_jessica {
+  display: none;
+  position: absolute;
+  background-color:rgb(33, 123, 157);
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  overflow:auto;
+}
+.dropdown_jessica:hover .dropdown-content_jessica {
+  display: block;
+}
+.dropdown_jessica {
+  position: relative;
+  display: inline-block;
+}
+
+.propaganda{
+  color:rgb(255, 255, 255)
+}
+.qoute{
+  background-image:url("../img/qoute.jpg");
+}
