@@ -18,6 +18,14 @@ padding: 0px; margin: 0px;
 #movie{
   width:100%;
 }
+
+.loggor{
+  width:75%;
+}
+.länktillnysida{
+  width:85%;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -34,6 +42,9 @@ padding: 0px; margin: 0px;
 
 .text{
   color:rgb(0, 0, 0); /*Detta behövs för att mainsidan har en class som gör att bakgrunden till den är en bild, och med tidigare färg syntes inget, så färgen är är specifikt för mainsidan*/
+}
+#bildrubrik{
+  width:75%
 }
 
 .dropdown-content {
