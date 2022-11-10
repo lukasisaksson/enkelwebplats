@@ -34,7 +34,7 @@ padding: 0px; margin: 0px;
 }
 
 #sida{
-  background-image: url("../img/skyskrapa.jpg");
+  background-image: url("../img/skyskrapa.webp");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -43,8 +43,8 @@ padding: 0px; margin: 0px;
 .text{
   color:rgb(0, 0, 0); /*Detta behövs för att mainsidan har en class som gör att bakgrunden till den är en bild, och med tidigare färg syntes inget, så färgen är är specifikt för mainsidan*/
 }
-#bildrubrik{
-  width:75%
+.bildrubrik{
+  width:35%
 }
 
 .dropdown-content {
