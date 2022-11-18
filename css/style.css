@@ -128,6 +128,10 @@ padding: 0px; margin: 0px;
   overflow:auto;
 }
 
+.dropdown_rachel {
+  position: relative;
+  display: inline-block;
+}
 .dropdown_rachel:hover .dropdown-content_rachel {
   display: block;
 }
